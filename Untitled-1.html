@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaksi Kafe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Tambah Transaksi Penjualan</h1>
+        
+        <div class="menu">
+            <div class="menu-item">
+                <div class="menu-info">
+                    <h3>Espresso</h3>
+                    <p>Rp18,000</p>
+                </div>
+                <div class="quantity">
+                    <button class="minus">-</button>
+                    <input type="number" value="0" min="0" class="qty" data-price="18000">
+                    <button class="plus">+</button>
+                </div>
+            </div>
+            
+            <!-- Item lainnya dengan struktur sama -->
+        </div>
+        
+        <div class="total">
+            <h2>Total:</h2>
+            <p id="total">Rp0</p>
+        </div>
+        
+        <button id="simpan">Simpan</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
